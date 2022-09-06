@@ -1,0 +1,26 @@
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(rgba(35,28,80,.6), rgba(125,98,39,.6)), url('/img/Food-bread-wheat_3840x2160.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.card{
+  border-radius: 8px;
+  backdrop-filter: blur(.1);
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 1px 12px rgba(0,0,0,0,.25);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.card-img-top{
+  padding: 5%;
+}
+
